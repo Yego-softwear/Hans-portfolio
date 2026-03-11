@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Hans Kipropyego — No-Code · AI · Automation Builder</title>
+<title>Hans Kiproyego — Senior Bubble Developer · Marketplaces · Stripe Connect · AI</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -91,6 +91,12 @@ h1 .accent-teal{color:var(--teal)}
 h2{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4.5vw,3.6rem);font-weight:700;line-height:1.1;letter-spacing:-0.01em}
 .section-sub{font-size:0.97rem;color:var(--muted);max-width:540px;line-height:1.8;margin-top:0.9rem}
 
+/* ── TEAM COLLAB BANNER ── NEW ── */
+.team-banner{background:linear-gradient(135deg,rgba(45,212,191,0.04),rgba(201,168,76,0.04));border:1px solid rgba(45,212,191,0.15);border-radius:14px;padding:1.6rem 2rem;display:flex;align-items:flex-start;gap:1.4rem;margin-top:2rem}
+.team-banner-icon{width:44px;height:44px;flex-shrink:0;background:rgba(45,212,191,0.08);border:1px solid rgba(45,212,191,0.2);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem}
+.team-banner-title{font-size:0.82rem;font-weight:600;color:var(--teal);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:0.4rem}
+.team-banner-text{font-size:0.88rem;color:var(--muted);line-height:1.65}
+
 /* ── AI / AUTOMATION SECTION ── */
 #ai-future{background:var(--bg2)}
 .ai-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
@@ -130,6 +136,11 @@ h3{font-family:'Cormorant Garamond',serif;font-size:2.1rem;font-weight:700;line-
 .tp.teal{border-color:rgba(45,212,191,0.25);color:var(--teal);background:rgba(45,212,191,0.05)}
 .proj-link{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.8rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(201,168,76,0.3);padding-bottom:3px;width:fit-content;transition:gap 0.2s,border-color 0.2s}
 .proj-link:hover{gap:0.8rem;border-color:var(--gold)}
+
+/* architecture note inside project — NEW */
+.arch-note{margin-top:1.2rem;padding:1rem 1.2rem;background:rgba(45,212,191,0.04);border:1px solid rgba(45,212,191,0.15);border-radius:10px;font-size:0.78rem;color:var(--muted);line-height:1.6}
+.arch-note strong{color:var(--teal);font-weight:600}
+
 .project-visual{position:relative;display:flex;align-items:center;justify-content:center;padding:2.5rem;min-height:300px}
 .pv1{background:linear-gradient(135deg,#0a1520,#0d2035,#071525)}
 .pv2{background:linear-gradient(135deg,#0a1a12,#0d2a18,#071510)}
@@ -147,7 +158,6 @@ h3{font-family:'Cormorant Garamond',serif;font-size:2.1rem;font-weight:700;line-
 .bl.w80{width:80%}.bl.w55{width:55%}.bl.w70{width:70%}
 .brow{display:flex;gap:7px;margin-top:10px}
 .bcard{flex:1;height:48px;border-radius:6px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.05)}
-/* mobile mockup */
 .phone{width:110px;background:var(--bg2);border-radius:18px;box-shadow:0 30px 80px rgba(0,0,0,0.6),0 0 0 1.5px rgba(255,255,255,0.08);overflow:hidden;position:relative;z-index:2}
 .phone-notch{height:22px;background:rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.05);display:flex;align-items:center;justify-content:center}
 .phone-dot{width:40px;height:7px;background:rgba(255,255,255,0.1);border-radius:10px}
@@ -262,6 +272,10 @@ footer p{font-size:0.76rem;color:var(--muted2)}
 .sc-title{font-size:0.9rem;font-weight:600;color:var(--text);margin-bottom:0.5rem}
 .sc-desc{font-size:0.82rem;color:var(--muted);line-height:1.6}
 
+/* ── OPEN TO TEAM ROLES BADGE ── NEW ── */
+.open-badge{display:inline-flex;align-items:center;gap:0.55rem;padding:0.5rem 1.1rem;background:rgba(45,212,191,0.07);border:1px solid rgba(45,212,191,0.25);border-radius:30px;font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal);margin-bottom:1.6rem}
+.open-badge-dot{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:pulse 2s infinite}
+
 /* ── ANIMATIONS ── */
 @keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
 .reveal{opacity:0;transform:translateY(22px);transition:opacity 0.75s ease,transform 0.75s ease}
@@ -306,7 +320,7 @@ footer p{font-size:0.76rem;color:var(--muted2)}
   <ul class="nav-links">
     <li><a href="#ai-future">AI & Automation</a></li>
     <li><a href="#work">Work</a></li>
-    <li><a href="#security">Security</a></li>
+    <li><a href="#security">Security & Performance</a></li>
     <li><a href="#certifications">Certs</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -320,16 +334,25 @@ footer p{font-size:0.76rem;color:var(--muted2)}
   <div class="hbg2"></div>
   <div class="hero-inner">
     <div>
-      <div class="hero-eyebrow"><div class="he-line"></div><span class="he-text">No-Code · AI Agents · Automation</span></div>
-      <h1>I build products,<br>automations &amp; <em>AI-powered</em><br><span class="accent-teal">businesses.</span></h1>
-      <p class="hero-desc">Senior Bubble builder specialising in production-grade marketplaces, AI-automated workflows, and secure, scalable architectures. 35+ apps delivered, 15+ audited — including iOS — with zero major security incidents. Stripe Connect, privacy-first data design, and AI agent integration are core to every build.</p>
+      <!-- UPDATED: open-to-team badge -->
+      <div class="open-badge">
+        <div class="open-badge-dot"></div>
+        Open to full-time remote team roles
+      </div>
+      <div class="hero-eyebrow"><div class="he-line"></div><span class="he-text">Senior Bubble Developer · Production-Grade Builds</span></div>
+      <!-- UPDATED: headline now speaks to team + production reality -->
+      <h1>I build Bubble apps<br>that <em>hold up</em> — under<br><span class="accent-teal">real users & real money.</span></h1>
+      <!-- UPDATED: description signals team-readiness + senior depth -->
+      <p class="hero-desc">Senior Bubble.io developer specialising in production-grade marketplaces, Stripe Connect architecture, and complex API integrations. 35+ apps delivered including a live iOS App Store release. I translate stakeholder requirements into solid data models and workflows — and I've maintained zero security incidents across all live products.</p>
       <div class="hero-tags">
         <span class="htag gold">Certified Bubble Developer</span>
+        <span class="htag teal">iOS App Store Delivered</span>
+        <span class="htag gold">Stripe Connect Architecture</span>
+        <span class="htag teal">REST APIs & Webhooks</span>
+        <span class="htag gold">Privacy-First Data Design</span>
+        <span class="htag">15+ Apps Audited · Zero Incidents</span>
         <span class="htag teal">AI Agent Builds</span>
-        <span class="htag teal">Business Automation</span>
-        <span class="htag gold">Stripe Connect · Marketplaces</span>
-        <span class="htag gold">iOS App Delivered</span>
-        <span class="htag">Secure by Design · Zero Data Leaks</span>
+        <span class="htag">Team-Ready · Async Remote</span>
       </div>
       <div class="hero-btns">
         <a href="#work" class="btn-gold">View My Work <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
@@ -340,18 +363,18 @@ footer p{font-size:0.76rem;color:var(--muted2)}
       <div class="stats-card">
         <div class="stat-item">
           <div class="stat-number">35+</div>
-          <div class="stat-desc">Apps delivered — web, iOS &amp; automation platforms</div>
+          <div class="stat-desc">Apps delivered — web, iOS & automation platforms</div>
         </div>
         <div class="stat-item">
           <div class="stat-number teal">15+</div>
-          <div class="stat-desc">Existing apps audited, restructured &amp; secured</div>
+          <div class="stat-desc">Existing apps audited, restructured & secured</div>
         </div>
         <div class="stat-item">
           <div class="stat-number">3×</div>
-          <div class="stat-desc">Certified — Million Labs, NoCode Alliance &amp; Bubble</div>
+          <div class="stat-desc">Certified — Million Labs, NoCode Alliance & Bubble</div>
         </div>
         <div class="stat-row">
-          <div class="stat-mini"><div class="stat-number">AI</div><div class="stat-desc">Agent builds &amp; automation</div></div>
+          <div class="stat-mini"><div class="stat-number">iOS</div><div class="stat-desc">Live on App Store</div></div>
           <div class="stat-mini"><div class="stat-number">0</div><div class="stat-desc">Security incidents across all live apps</div></div>
         </div>
       </div>
@@ -367,25 +390,25 @@ footer p{font-size:0.76rem;color:var(--muted2)}
     <div class="marquee-item"><div class="mdot"></div>Stripe Connect</div>
     <div class="marquee-item"><div class="mdot t"></div>Privacy-First Architecture</div>
     <div class="marquee-item"><div class="mdot"></div>Bubble.io</div>
-    <div class="marquee-item"><div class="mdot t"></div>AI Agents</div>
-    <div class="marquee-item"><div class="mdot"></div>Make / Zapier</div>
-    <div class="marquee-item"><div class="mdot t"></div>OpenAI Integration</div>
-    <div class="marquee-item"><div class="mdot"></div>Secure Marketplace Builds</div>
-    <div class="marquee-item"><div class="mdot t"></div>Business Automation</div>
-    <div class="marquee-item"><div class="mdot"></div>iOS App Delivery</div>
+    <div class="marquee-item"><div class="mdot t"></div>iOS App Store</div>
+    <div class="marquee-item"><div class="mdot"></div>REST APIs & Webhooks</div>
+    <div class="marquee-item"><div class="mdot t"></div>AI Agent Workflows</div>
+    <div class="marquee-item"><div class="mdot"></div>Make / n8n</div>
+    <div class="marquee-item"><div class="mdot t"></div>Database Architecture</div>
+    <div class="marquee-item"><div class="mdot"></div>Responsive Design</div>
     <div class="marquee-item"><div class="mdot t"></div>Zero Data Leaks</div>
-    <!-- duplicate for seamless loop -->
+    <!-- duplicate -->
     <div class="marquee-item"><div class="mdot"></div>35+ Apps Delivered</div>
     <div class="marquee-item"><div class="mdot t"></div>15+ Apps Audited</div>
     <div class="marquee-item"><div class="mdot"></div>Stripe Connect</div>
     <div class="marquee-item"><div class="mdot t"></div>Privacy-First Architecture</div>
     <div class="marquee-item"><div class="mdot"></div>Bubble.io</div>
-    <div class="marquee-item"><div class="mdot t"></div>AI Agents</div>
-    <div class="marquee-item"><div class="mdot"></div>Make / Zapier</div>
-    <div class="marquee-item"><div class="mdot t"></div>OpenAI Integration</div>
-    <div class="marquee-item"><div class="mdot"></div>Secure Marketplace Builds</div>
-    <div class="marquee-item"><div class="mdot t"></div>Business Automation</div>
-    <div class="marquee-item"><div class="mdot"></div>iOS App Delivery</div>
+    <div class="marquee-item"><div class="mdot t"></div>iOS App Store</div>
+    <div class="marquee-item"><div class="mdot"></div>REST APIs & Webhooks</div>
+    <div class="marquee-item"><div class="mdot t"></div>AI Agent Workflows</div>
+    <div class="marquee-item"><div class="mdot"></div>Make / n8n</div>
+    <div class="marquee-item"><div class="mdot t"></div>Database Architecture</div>
+    <div class="marquee-item"><div class="mdot"></div>Responsive Design</div>
     <div class="marquee-item"><div class="mdot t"></div>Zero Data Leaks</div>
   </div>
 </div>
@@ -450,18 +473,10 @@ footer p{font-size:0.76rem;color:var(--muted2)}
           <div class="flow-divider"></div>
           <div class="flow-label" style="margin-top:0.8rem">Tools I Connect</div>
           <div class="integrations-mini">
-            <span class="int-chip">Bubble.io</span>
-            <span class="int-chip">Make</span>
-            <span class="int-chip">n8n</span>
-            <span class="int-chip">OpenAI</span>
-            <span class="int-chip">Zapier</span>
-            <span class="int-chip">Airtable</span>
-            <span class="int-chip">Stripe</span>
-            <span class="int-chip">Twilio</span>
-            <span class="int-chip">WhatsApp API</span>
-            <span class="int-chip">Notion</span>
-            <span class="int-chip">Google Sheets</span>
-            <span class="int-chip">Slack</span>
+            <span class="int-chip">Bubble.io</span><span class="int-chip">Make</span><span class="int-chip">n8n</span>
+            <span class="int-chip">OpenAI</span><span class="int-chip">Zapier</span><span class="int-chip">Airtable</span>
+            <span class="int-chip">Stripe</span><span class="int-chip">Twilio</span><span class="int-chip">WhatsApp API</span>
+            <span class="int-chip">Notion</span><span class="int-chip">Google Sheets</span><span class="int-chip">Slack</span>
           </div>
         </div>
       </div>
@@ -474,8 +489,9 @@ footer p{font-size:0.76rem;color:var(--muted2)}
   <div class="section-inner">
     <div class="section-header reveal">
       <div class="eyebrow"><div class="ey-line"></div><span class="ey-text">Selected Work</span></div>
-      <h2>A selection of what I've shipped</h2>
-      <p class="section-sub">35+ apps delivered across web, iOS, and automation. Below are a handful of featured builds — every one is live, in production, with real users and real payments.</p>
+      <h2>Production apps. Real users.<br>Real architecture decisions.</h2>
+      <!-- UPDATED: sub copy now emphasises architecture thinking -->
+      <p class="section-sub">35+ apps delivered across web, iOS, and automation. Every project below is live, in production, with real users and real payments — each one built architecture-first, with data models and privacy rules designed before any UI was touched.</p>
     </div>
 
     <!-- PROJECT 1: MARLO iOS -->
@@ -484,16 +500,17 @@ footer p{font-size:0.76rem;color:var(--muted2)}
         <div class="project-num">01</div>
         <div class="project-tag-pill teal">📱 iOS App · Live on App Store</div>
         <h3>Marlo</h3>
-        <p class="project-desc">A live iOS lifestyle app connecting premium creators with real-world experiences — dining, wellness, travel. Features a non-cash Marlo Card payment system, TikTok account verification, Face ID lock, creator dashboards, and venue campaign management. Shipped to the Apple App Store.</p>
+        <p class="project-desc">A live iOS lifestyle app connecting premium creators with real-world experiences — dining, wellness, travel. Features a non-cash Marlo Card payment system, TikTok account verification, Face ID lock, creator dashboards, and venue campaign management. Shipped to the Apple App Store — one of very few Bubble apps globally to complete Apple's review process.</p>
         <div class="tech-pills">
-          <span class="tp teal">iOS App Store</span>
-          <span class="tp">Creator Platform</span>
-          <span class="tp">Non-Cash Payments</span>
-          <span class="tp">TikTok API</span>
-          <span class="tp">Face ID</span>
-          <span class="tp">Bubble.io</span>
+          <span class="tp teal">iOS App Store</span><span class="tp">Creator Platform</span>
+          <span class="tp">Non-Cash Payments</span><span class="tp">TikTok API</span>
+          <span class="tp">Face ID</span><span class="tp">Bubble.io</span>
         </div>
-        <a href="https://apps.apple.com/us/app/marlo/id6754667095" target="_blank" class="proj-link">View on App Store <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+        <!-- UPDATED: architecture note added -->
+        <div class="arch-note">
+          <strong>Architecture decisions:</strong> Custom payment card logic isolated in backend workflows; TikTok OAuth handled server-side with token refresh; Face ID via Bubble's native mobile layer with fallback state management for edge cases.
+        </div>
+        <a href="https://apps.apple.com/us/app/marlo/id6754667095" target="_blank" class="proj-link" style="margin-top:1.2rem">View on App Store <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
       </div>
       <div class="project-visual pv4">
         <div class="ftag ftl"><span class="ldot"></span>Live on App Store</div>
@@ -501,28 +518,21 @@ footer p{font-size:0.76rem;color:var(--muted2)}
           <div class="phone">
             <div class="phone-notch"><div class="phone-dot"></div></div>
             <div class="phone-body">
-              <div class="pl t"></div>
-              <div class="pl w80"></div>
-              <div class="pl w55"></div>
+              <div class="pl t"></div><div class="pl w80"></div><div class="pl w55"></div>
               <div class="prow"><div class="pcard"></div><div class="pcard"></div></div>
-              <div style="height:6px"></div>
-              <div class="pl w80"></div>
+              <div style="height:6px"></div><div class="pl w80"></div>
             </div>
           </div>
           <div class="phone" style="transform:translateY(-12px)">
             <div class="phone-notch"><div class="phone-dot"></div></div>
             <div class="phone-body">
-              <div class="pl w80"></div>
-              <div class="pl t"></div>
+              <div class="pl w80"></div><div class="pl t"></div>
               <div class="prow"><div class="pcard" style="height:55px;background:rgba(45,212,191,0.1)"></div></div>
-              <div style="height:6px"></div>
-              <div class="pl w55"></div>
+              <div style="height:6px"></div><div class="pl w55"></div>
             </div>
           </div>
         </div>
-        <div class="ios-badge">
-          <div class="ios-badge-inner">🍎 Available on iOS</div>
-        </div>
+        <div class="ios-badge"><div class="ios-badge-inner">🍎 Available on iOS</div></div>
       </div>
     </div>
 
@@ -534,14 +544,15 @@ footer p{font-size:0.76rem;color:var(--muted2)}
         <h3>Get a Desk</h3>
         <p class="project-desc">A location-based marketplace for discovering and booking hot desks and workspaces. Full Stripe payment architecture with Connect-ready multi-vendor expansion patterns. Tight privacy rules ensure users only ever see workspaces they're authorised to view — with backend-indexed searches for sub-second results at scale.</p>
         <div class="tech-pills">
-          <span class="tp">Maps & Geolocation</span>
-          <span class="tp">Booking Engine</span>
-          <span class="tp">Stripe Connect-Ready</span>
-          <span class="tp">Privacy-Rule Architecture</span>
-          <span class="tp">Search & Filters</span>
-          <span class="tp">Bubble.io</span>
+          <span class="tp">Maps & Geolocation</span><span class="tp">Booking Engine</span>
+          <span class="tp">Stripe Connect-Ready</span><span class="tp">Privacy-Rule Architecture</span>
+          <span class="tp">Search & Filters</span><span class="tp">Bubble.io</span>
         </div>
-        <a href="https://getadesk.co" target="_blank" class="proj-link">Visit Live Site <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+        <!-- UPDATED: architecture note -->
+        <div class="arch-note">
+          <strong>Architecture decisions:</strong> Database search indexed on location + availability fields for speed; Connect account model built into schema from day one for future multi-vendor activation; all search results gated behind privacy rules, not just UI-level hiding.
+        </div>
+        <a href="https://getadesk.co" target="_blank" class="proj-link" style="margin-top:1.2rem">Visit Live Site <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
       </div>
       <div class="project-visual pv1">
         <div class="ftag ftl"><span class="ldot"></span>Live & Active</div>
@@ -563,17 +574,17 @@ footer p{font-size:0.76rem;color:var(--muted2)}
         <div class="project-num">03</div>
         <div class="project-tag-pill">🏄 Rental Marketplace</div>
         <h3>HireHood</h3>
-        <p class="project-desc">Full two-sided rental marketplace for holiday gear across Australia. <strong style="color:var(--text);font-weight:500">Stripe Connect-powered peer-to-peer payouts</strong> — hosts receive funds minus platform fee via direct charges, with onboarding via hosted forms and backend account linking. Webhooks handle payout events and dispute logic server-side; charge creation is backend-only, secrets never exposed client-side. Privacy rules enforce renters see only their bookings and host profiles — never other users' financials or private notes.</p>
+        <p class="project-desc">Full two-sided rental marketplace for holiday gear across Australia. <strong style="color:var(--text);font-weight:500">Stripe Connect-powered peer-to-peer payouts</strong> — hosts receive funds minus platform fee via direct charges, with onboarding via hosted forms and backend account linking. Webhooks handle payout events and dispute logic server-side; charge creation is backend-only, secrets never exposed client-side.</p>
         <div class="tech-pills">
-          <span class="tp">Stripe Connect</span>
-          <span class="tp">Platform Fee Capture</span>
-          <span class="tp">Secure Host Onboarding</span>
-          <span class="tp">Privacy-Rule Architecture</span>
-          <span class="tp">Reviews & Ratings</span>
-          <span class="tp">Booking Calendar</span>
-          <span class="tp">Bubble.io</span>
+          <span class="tp">Stripe Connect</span><span class="tp">Platform Fee Capture</span>
+          <span class="tp">Secure Host Onboarding</span><span class="tp">Privacy-Rule Architecture</span>
+          <span class="tp">Reviews & Ratings</span><span class="tp">Booking Calendar</span><span class="tp">Bubble.io</span>
         </div>
-        <a href="https://hirehood.com.au" target="_blank" class="proj-link">Visit Live Site <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+        <!-- UPDATED: architecture note -->
+        <div class="arch-note">
+          <strong>Architecture decisions:</strong> Charge creation 100% in backend workflows — client never touches Stripe secret key. Webhook endpoint validates Stripe signatures before processing. Booking state machine (requested → confirmed → active → completed → released) drives all payout timing logic.
+        </div>
+        <a href="https://hirehood.com.au" target="_blank" class="proj-link" style="margin-top:1.2rem">Visit Live Site <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
       </div>
       <div class="project-visual pv2">
         <div class="ftag ftl">🌏 Australia</div>
@@ -595,15 +606,12 @@ footer p{font-size:0.76rem;color:var(--muted2)}
         <div class="project-num">04</div>
         <div class="project-tag-pill">⚡ Booking Platform</div>
         <h3>Instabook — EasyTiger</h3>
-        <p class="project-desc">A conversion-focused booking platform built for EasyTiger. Designed to minimise drop-off — from landing page to confirmed booking in as few steps as possible. High-performance UX-led build.</p>
+        <p class="project-desc">A conversion-focused booking platform built for EasyTiger. Designed to minimise drop-off — from landing page to confirmed booking in as few steps as possible. UX-led build with performance-first architecture: minimal database reads per page load, optimised repeating group queries, and lazy-loaded non-critical data.</p>
         <div class="tech-pills">
-          <span class="tp">Booking Flow</span>
-          <span class="tp">Conversion Optimised</span>
-          <span class="tp">Landing Page</span>
-          <span class="tp">UX-Led Design</span>
-          <span class="tp">Bubble.io</span>
+          <span class="tp">Booking Flow</span><span class="tp">Conversion Optimised</span>
+          <span class="tp">Landing Page</span><span class="tp">UX-Led Design</span><span class="tp">Bubble.io</span>
         </div>
-        <a href="https://instabook.io/landing/easytiger" target="_blank" class="proj-link">Visit Live Site <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+        <a href="https://instabook.io/landing/easytiger" target="_blank" class="proj-link" style="margin-top:0.6rem">Visit Live Site <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
       </div>
       <div class="project-visual pv3">
         <div class="ftag ftl">⚡ Book in 60 seconds</div>
@@ -624,40 +632,27 @@ footer p{font-size:0.76rem;color:var(--muted2)}
         <div class="project-num">05</div>
         <div class="project-tag-pill">🎵 Vinyl Marketplace</div>
         <h3>Magpye</h3>
-        <p class="project-desc">A full-featured marketplace platform for vinyl record collectors — connecting buyers hunting for rare pressings with sellers clearing their collections. Features advanced search &amp; filtering, user ratings and reviews, secure buyer–seller messaging, and end-to-end Stripe payment processing. Privacy rules ensure users see only their own orders and messages — never other users' transaction history or private notes.</p>
+        <p class="project-desc">A full-featured marketplace platform for vinyl record collectors — connecting buyers hunting for rare pressings with sellers clearing their collections. Advanced search & filtering, user ratings and reviews, secure buyer–seller messaging, and end-to-end Stripe payment processing. Privacy rules ensure users see only their own orders and messages.</p>
         <div class="tech-pills">
-          <span class="tp">Two-Sided Marketplace</span>
-          <span class="tp">Stripe Payments</span>
-          <span class="tp">Advanced Search & Filter</span>
-          <span class="tp">Ratings & Reviews</span>
-          <span class="tp">Secure Messaging</span>
-          <span class="tp">Privacy-Rule Architecture</span>
-          <span class="tp">Bubble.io</span>
+          <span class="tp">Two-Sided Marketplace</span><span class="tp">Stripe Payments</span>
+          <span class="tp">Advanced Search & Filter</span><span class="tp">Ratings & Reviews</span>
+          <span class="tp">Secure Messaging</span><span class="tp">Privacy-Rule Architecture</span><span class="tp">Bubble.io</span>
         </div>
-        <span class="proj-link" style="cursor:default;opacity:0.55;border-bottom-color:transparent">Client Project — NDA</span>
+        <span class="proj-link" style="cursor:default;opacity:0.55;border-bottom-color:transparent;margin-top:0.6rem">Client Project — NDA</span>
       </div>
       <div class="project-visual" style="background:linear-gradient(135deg,#1a1500,#2a2000,#120f00);position:relative;display:flex;align-items:center;justify-content:center;padding:2.5rem;min-height:300px;">
         <div class="ftag ftl"><span class="ldot"></span>Live Marketplace</div>
         <div style="position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:1.2rem">
-          <!-- Magpye logo circle -->
           <div style="width:90px;height:90px;border-radius:50%;background:#f5d800;border:3px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;box-shadow:0 0 40px rgba(245,216,0,0.25),0 20px 60px rgba(0,0,0,0.5);overflow:hidden;">
             <svg width="70" height="70" viewBox="0 0 100 100">
-              <!-- yellow circle bg -->
               <circle cx="50" cy="50" r="48" fill="#f5d800"/>
-              <!-- magpye bird body - black -->
               <ellipse cx="50" cy="62" rx="20" ry="16" fill="#111"/>
-              <!-- white belly -->
               <ellipse cx="48" cy="64" rx="10" ry="11" fill="#f0ece4"/>
-              <!-- head -->
               <circle cx="62" cy="44" r="12" fill="#111"/>
-              <!-- beak -->
               <polygon points="74,42 84,44 74,46" fill="#111"/>
-              <!-- eye -->
               <circle cx="66" cy="42" r="2.5" fill="white"/>
               <circle cx="67" cy="42" r="1" fill="#111"/>
-              <!-- tail -->
               <path d="M32,70 Q18,80 12,90 Q22,78 35,74 Z" fill="#111"/>
-              <!-- wing highlight -->
               <ellipse cx="46" cy="60" rx="8" ry="5" fill="#222" transform="rotate(-15,46,60)"/>
             </svg>
           </div>
@@ -667,12 +662,11 @@ footer p{font-size:0.76rem;color:var(--muted2)}
               <div class="bl" style="background:rgba(245,216,0,0.25);width:65%"></div>
               <div class="bl w80"></div>
               <div class="brow"><div class="bcard"></div><div class="bcard"></div><div class="bcard"></div></div>
-              <div style="height:6px"></div>
-              <div class="bl w55"></div>
+              <div style="height:6px"></div><div class="bl w55"></div>
             </div>
           </div>
         </div>
-        <div class="ftag fbr">🎵 Vinyl · Buy &amp; Sell</div>
+        <div class="ftag fbr">🎵 Vinyl · Buy & Sell</div>
       </div>
     </div>
 
@@ -685,7 +679,7 @@ footer p{font-size:0.76rem;color:var(--muted2)}
     <div class="section-header reveal">
       <div class="eyebrow"><div class="ey-line-t"></div><span class="ey-text-t">Full Stack No-Code</span></div>
       <h2>Every tool. Every integration.</h2>
-      <p class="section-sub">I don't just use Bubble in isolation. I connect your entire product stack — from payments to AI to communication tools.</p>
+      <p class="section-sub">I don't just use Bubble in isolation. I connect entire product stacks — from payments to AI to communication tools — and have shipped integrations with all of these in production.</p>
     </div>
     <div class="int-grid reveal">
       <div class="int-card"><div class="int-emoji">🫧</div><div class="int-name">Bubble.io</div><div class="int-cat">Core Builder</div></div>
@@ -693,7 +687,7 @@ footer p{font-size:0.76rem;color:var(--muted2)}
       <div class="int-card"><div class="int-emoji">🔄</div><div class="int-name">n8n</div><div class="int-cat">Workflow Automation</div></div>
       <div class="int-card"><div class="int-emoji">🤖</div><div class="int-name">OpenAI / ChatGPT</div><div class="int-cat">AI Integration</div></div>
       <div class="int-card"><div class="int-emoji">⚙️</div><div class="int-name">Zapier</div><div class="int-cat">Automation</div></div>
-      <div class="int-card"><div class="int-emoji">💳</div><div class="int-name">Stripe</div><div class="int-cat">Payments & Payouts</div></div>
+      <div class="int-card"><div class="int-emoji">💳</div><div class="int-name">Stripe Connect</div><div class="int-cat">Payments & Payouts</div></div>
       <div class="int-card"><div class="int-emoji">📋</div><div class="int-name">Airtable</div><div class="int-cat">Database</div></div>
       <div class="int-card"><div class="int-emoji">📄</div><div class="int-name">Notion</div><div class="int-cat">Content / CMS</div></div>
       <div class="int-card"><div class="int-emoji">📱</div><div class="int-name">Twilio</div><div class="int-cat">SMS & Voice</div></div>
@@ -708,13 +702,15 @@ footer p{font-size:0.76rem;color:var(--muted2)}
   </div>
 </section>
 
-<!-- SECURITY & PRIVACY -->
+<!-- SECURITY & PERFORMANCE — UPDATED SECTION TITLE -->
 <section class="section" id="security">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="eyebrow"><div class="ey-line-t"></div><span class="ey-text-t">Secure by Design</span></div>
-      <h2>Privacy &amp; Data Protection<br><em style="font-style:italic;color:var(--teal)">built in from day one.</em></h2>
-      <p class="section-sub">I treat privacy rules as the foundation — not a final checklist. Every marketplace I build is architected to prevent data leaks, enforce ownership, and protect users from the database up.</p>
+      <!-- UPDATED: renamed to include Performance -->
+      <div class="eyebrow"><div class="ey-line-t"></div><span class="ey-text-t">Security, Performance & Architecture</span></div>
+      <h2>Built to hold up.<br><em style="font-style:italic;color:var(--teal)">Under audit. Under load. Under scale.</em></h2>
+      <!-- UPDATED: sub copy now also covers performance -->
+      <p class="section-sub">Privacy rules are the foundation — not the final checklist. I design database structure, ownership patterns, and query performance together, from the first data type. Every marketplace below has been tested in incognito, verified in DevTools, and maintained zero data-exposure incidents in production.</p>
     </div>
     <div class="security-grid">
       <div class="sec-intro reveal">
@@ -743,6 +739,15 @@ footer p{font-size:0.76rem;color:var(--muted2)}
               <span class="sb-code">AND This Thing's Team is not empty</span>
             </div>
           </div>
+          <!-- UPDATED: new performance bullet -->
+          <div class="sec-bullet">
+            <div class="sb-icon">⚡</div>
+            <div>
+              <div class="sb-title">Query Performance & Database Optimisation</div>
+              <div class="sb-desc">Search constraints applied at the data source — not filtered after fetch. Backend workflows used for heavy logic to keep client-side fast. Repeating group queries structured to avoid nested searches. Indexed fields on high-frequency lookups.</div>
+              <span class="sb-code">Do search with constraints, not :filtered</span>
+            </div>
+          </div>
           <div class="sec-bullet">
             <div class="sb-icon">🔍</div>
             <div>
@@ -769,22 +774,10 @@ footer p{font-size:0.76rem;color:var(--muted2)}
         <h2 style="font-size:clamp(1.6rem,3vw,2.4rem);margin-bottom:1.5rem">Stripe Connect<br><em style="font-style:italic;color:var(--gold)">done properly.</em></h2>
         <p style="font-size:0.97rem;color:var(--muted);line-height:1.8;margin-bottom:0.8rem">Most developers bolt Stripe on. I architect it. Platform fees, delayed payouts, vendor onboarding, webhook handling — all built for real marketplace economics.</p>
         <div class="stripe-grid">
-          <div class="stripe-card">
-            <div class="sc-title">Standard Connect Marketplaces</div>
-            <div class="sc-desc">Implemented Standard Connect for peer-to-peer payouts — hosts receive funds minus platform fee via direct charges; onboarding via hosted forms with backend account linking (HireHood).</div>
-          </div>
-          <div class="stripe-card">
-            <div class="sc-title">Secure Webhook Architecture</div>
-            <div class="sc-desc">Webhooks for subscription, payout, and dispute events. Charge creation is backend-only — secrets never exposed client-side. Rate-limited refund and dispute handling baked in.</div>
-          </div>
-          <div class="stripe-card">
-            <div class="sc-title">Delayed Charges & Transfers</div>
-            <div class="sc-desc">Hold funds until booking completion — then release. Integrated via Bubble's API Connector with custom event triggers for rental marketplace logic (hold on booking, release on return).</div>
-          </div>
-          <div class="stripe-card">
-            <div class="sc-title">Connect-Ready Architecture</div>
-            <div class="sc-desc">Even where Standard Connect isn't active, I architect with expansion in mind — data models, account fields, and charge flows designed so Connect can be activated without a rebuild.</div>
-          </div>
+          <div class="stripe-card"><div class="sc-title">Standard Connect Marketplaces</div><div class="sc-desc">Implemented Standard Connect for peer-to-peer payouts — hosts receive funds minus platform fee via direct charges; onboarding via hosted forms with backend account linking (HireHood).</div></div>
+          <div class="stripe-card"><div class="sc-title">Secure Webhook Architecture</div><div class="sc-desc">Webhooks for subscription, payout, and dispute events. Charge creation is backend-only — secrets never exposed client-side. Stripe signature validation on every incoming webhook.</div></div>
+          <div class="stripe-card"><div class="sc-title">Delayed Charges & Transfers</div><div class="sc-desc">Hold funds until booking completion — then release. Custom event triggers for rental marketplace logic: hold on booking confirmed, release on return verified.</div></div>
+          <div class="stripe-card"><div class="sc-title">Connect-Ready Architecture</div><div class="sc-desc">Even where Standard Connect isn't active, I architect with expansion in mind — data models, account fields, and charge flows designed so Connect can be activated without a rebuild.</div></div>
         </div>
       </div>
     </div>
@@ -800,98 +793,95 @@ footer p{font-size:0.76rem;color:var(--muted2)}
       <p class="section-sub">My skills are backed by industry-recognised certifications from leading no-code institutions — proof that what I build meets professional standards.</p>
     </div>
     <div class="certs-grid">
-
       <div class="cert-card reveal">
         <div class="cert-badge-wrap">🏅</div>
-        <div>
-          <div class="cert-issuer">Million Labs</div>
-          <div class="cert-name">Million Labs Certified Bubble Associate (MCBA)</div>
-        </div>
-        <div>
-          <div class="cert-date">Issued: July 24, 2025</div>
-          <div class="cert-id">ID: mcba639 · MLabs ID: 1680168057654x206455141897046160</div>
-        </div>
+        <div><div class="cert-issuer">Million Labs</div><div class="cert-name">Million Labs Certified Bubble Associate (MCBA)</div></div>
+        <div><div class="cert-date">Issued: July 24, 2025</div><div class="cert-id">ID: mcba639 · MLabs ID: 1680168057654x206455141897046160</div></div>
         <a href="https://c85ec4c2721d0d1fda7c4d73a2dd9307.cdn.bubble.io/f1753377387541x274987280133570000/kIRBgKpCCeMmSrdSleLn.pdf" target="_blank" class="cert-verify">View Certificate <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
       </div>
-
       <div class="cert-card reveal">
         <div class="cert-badge-wrap">🎓</div>
-        <div>
-          <div class="cert-issuer">NoCode Alliance</div>
-          <div class="cert-name">NoCode Alliance Certified Builder</div>
-        </div>
-        <div>
-          <div class="cert-date">Issued: 2025</div>
-          <div class="cert-id">Credential ID: 1752782821214x808750901611200500</div>
-        </div>
+        <div><div class="cert-issuer">NoCode Alliance</div><div class="cert-name">NoCode Alliance Certified Builder</div></div>
+        <div><div class="cert-date">Issued: 2025</div><div class="cert-id">Credential ID: 1752782821214x808750901611200500</div></div>
         <a href="https://nocodealliance.org/next-create-certification/1752782821214x808750901611200500" target="_blank" class="cert-verify">Verify Online <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
       </div>
-
       <div class="cert-card reveal">
         <div class="cert-badge-wrap">⚡</div>
-        <div>
-          <div class="cert-issuer">Million Labs</div>
-          <div class="cert-name">Certified Bubble Associate Badge</div>
-        </div>
-        <div>
-          <div class="cert-date">Issued: July 2025</div>
-          <div class="cert-id">Credential ID: 1680168057654x206455141897046160</div>
-        </div>
+        <div><div class="cert-issuer">Million Labs</div><div class="cert-name">Certified Bubble Associate Badge</div></div>
+        <div><div class="cert-date">Issued: July 2025</div><div class="cert-id">Credential ID: 1680168057654x206455141897046160</div></div>
         <span class="cert-verify" style="cursor:default;opacity:0.6">Officially Verified ✓</span>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- PROCESS -->
+<!-- PROCESS — UPDATED to show team/PO workflow -->
 <section class="section" id="process">
   <div class="section-inner">
     <div class="section-header reveal">
       <div class="eyebrow"><div class="ey-line-t"></div><span class="ey-text-t">How I Work</span></div>
-      <h2>From idea to live product<br>without the usual chaos.</h2>
-      <p class="section-sub">I've shipped enough products to know exactly where things go wrong — and how to stop them before they do.</p>
+      <!-- UPDATED: now reflects team workflow language -->
+      <h2>Architecture before UI.<br>Always.</h2>
+      <p class="section-sub">Whether working directly with a client or alongside a product team, I follow the same discipline: requirements to data model first, then logic, then interface. This is how apps scale without rebuilds.</p>
     </div>
     <div class="process-grid">
-      <div class="pc reveal"><div class="pc-num">01</div><div class="pc-icon">🔍</div><h4>Discovery Call</h4><p>Before opening Bubble, I ask the right questions. Your users, business model, and non-negotiables. Clarity upfront saves weeks of rebuilding later.</p></div>
-      <div class="pc reveal"><div class="pc-num">02</div><div class="pc-icon">🗂️</div><h4>Data Architecture</h4><p>Database structure and logic flow mapped before any UI is built. A well-architected Bubble app scales — a poorly built one breaks under pressure.</p></div>
-      <div class="pc reveal"><div class="pc-num">03</div><div class="pc-icon">🛠️</div><h4>Build & Iterate</h4><p>Focused sprints with regular check-ins. You'll never wait weeks to see nothing — tight feedback loops keep us aligned and on track from day one.</p></div>
-      <div class="pc reveal"><div class="pc-num">04</div><div class="pc-icon">🚀</div><h4>Launch & Handoff</h4><p>Full walkthrough, documentation, and go-live support. I don't ship and disappear — you're set up to run and grow independently.</p></div>
+      <!-- UPDATED: step copy now uses PO/team language -->
+      <div class="pc reveal"><div class="pc-num">01</div><div class="pc-icon">🔍</div><h4>Requirements to Architecture</h4><p>Before opening Bubble, I translate stakeholder requirements into a data model. Users, roles, data types, relationships, and privacy rules mapped before any workflow is written.</p></div>
+      <div class="pc reveal"><div class="pc-num">02</div><div class="pc-icon">🗂️</div><h4>Schema & Logic Design</h4><p>Database structure and workflow logic documented in Notion before build begins. Every decision is recorded — so product owners, designers, and QA all stay aligned throughout.</p></div>
+      <div class="pc reveal"><div class="pc-num">03</div><div class="pc-icon">🛠️</div><h4>Build with Feedback Loops</h4><p>Focused development sprints with regular async check-ins via Slack and Loom. Requirements changes handled through structured scope discussion — no silent pivots.</p></div>
+      <div class="pc reveal"><div class="pc-num">04</div><div class="pc-icon">🚀</div><h4>Handoff with Documentation</h4><p>Full architecture walkthrough, documented decisions, and go-live support. The next developer who touches the app will understand exactly why it was built the way it was.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ABOUT -->
+<!-- ABOUT — UPDATED with team/collaboration language -->
 <section class="section" id="about">
   <div class="section-inner">
     <div class="about-grid">
       <div class="reveal">
         <div class="about-card">
           <div class="av">👨🏾‍💻</div>
-          <h3>Hans Kipropyego</h3>
-          <div class="ac-role">Senior No-Code Developer · Security & Stripe Connect Specialist</div>
-          <p class="ac-bio">Certified Bubble.io developer based in Nairobi, Kenya. I specialise in production-grade marketplaces with Stripe Connect, privacy-first data architecture, and AI-automated workflows. 35+ apps delivered. 15+ apps audited & restructured. 3 certifications. Zero major security incidents.</p>
+          <h3>Hans Kiproyego</h3>
+          <!-- UPDATED: role now includes "team-ready" signal -->
+          <div class="ac-role">Senior Bubble Developer · Available for Full-Time Remote Team Roles</div>
+          <p class="ac-bio">Certified Bubble.io developer based in Nairobi, Kenya. I specialise in production-grade marketplaces with Stripe Connect, privacy-first data architecture, and complex API integrations. 35+ apps delivered. 15+ apps audited & restructured. 3 certifications. Zero major security incidents.</p>
           <div class="atags">
             <span class="atag">Bubble.io</span>
             <span class="atag">Certified MCBA</span>
             <span class="atag">Marketplace Expert</span>
-            <span class="atag">Stripe Integrations</span>
+            <span class="atag">Stripe Connect</span>
             <span class="atag teal">AI Agents</span>
             <span class="atag teal">Make / n8n</span>
-            <span class="atag teal">Business Automation</span>
+            <span class="atag teal">REST APIs</span>
             <span class="atag">iOS Delivery</span>
+            <span class="atag teal">Team Collaboration</span>
+            <span class="atag">Async Remote</span>
           </div>
         </div>
       </div>
       <div class="about-right reveal">
         <div class="eyebrow"><div class="ey-line"></div><span class="ey-text">About Me</span></div>
         <h2 style="margin-bottom:1.4rem">I build fast.<br>I build things<br><em style="font-style:italic;color:var(--gold)">that work.</em></h2>
-        <p>I'm not just a Bubble developer — I'm a product architect who understands business, security, and scale. I've shipped marketplaces, booking platforms, iOS apps, and automation systems for clients across Australia, the US, and Africa.</p>
-        <p>What sets me apart: Stripe Connect implementation depth, privacy-rule architecture that actually holds up under audit, and the ability to wire your entire stack — Bubble, AI agents, Make, n8n, and 15+ integrations — into a system that runs without you.</p>
-        <div class="values">
-          <div class="vi"><div class="vi-icon">⚡</div><div><div class="vi-title">Speed without shortcuts</div><div class="vi-desc">No-code lets me move fast — but I don't cut corners on data structure or logic. Built fast, built to last.</div></div></div>
-          <div class="vi"><div class="vi-icon">🤝</div><div><div class="vi-title">Transparent communication</div><div class="vi-desc">I'll tell you if something won't work — and exactly what will. No surprises, ever.</div></div></div>
-          <div class="vi"><div class="vi-icon">🎯</div><div><div class="vi-title">Outcomes over features</div><div class="vi-desc">I build what your users actually need and what your business actually requires. Scope focus saves projects.</div></div></div>
+        <!-- UPDATED: first paragraph kept, second updated with team language -->
+        <p>I'm not just a Bubble developer — I'm a product architect who understands business logic, security, and performance at scale. I've shipped marketplaces, booking platforms, iOS apps, and automation systems for clients across Australia, the US, and Africa.</p>
+        <p>What sets me apart: Stripe Connect implementation depth, privacy-rule architecture that holds up under audit, and the ability to translate complex product requirements into clean data models and workflows before a single element is placed on the canvas.</p>
+        <!-- UPDATED: new team collaboration paragraph -->
+        <p>I work comfortably inside product teams — translating requirements from product owners into database architecture and workflow logic, documenting decisions in Notion, and staying aligned across time zones through async tools like Slack and Loom. I give direct, structured technical feedback and I receive it the same way.</p>
+
+        <!-- UPDATED: new team-readiness banner -->
+        <div class="team-banner">
+          <div class="team-banner-icon">🤝</div>
+          <div>
+            <div class="team-banner-title">Team-Ready · Async Remote</div>
+            <div class="team-banner-text">Experienced working in async remote environments across 4 continents. Comfortable with Slack, Notion, Loom, and structured written communication. Available for full-time senior developer roles within a product team.</div>
+          </div>
+        </div>
+
+        <div class="values" style="margin-top:1.6rem">
+          <div class="vi"><div class="vi-icon">⚡</div><div><div class="vi-title">Speed without shortcuts</div><div class="vi-desc">No-code lets me move fast — but I never cut corners on data structure or logic. The architecture decisions made early are the ones that matter most.</div></div></div>
+          <!-- UPDATED: renamed from "Transparent communication" to reflect team context better -->
+          <div class="vi"><div class="vi-icon">💬</div><div><div class="vi-title">Direct, documented communication</div><div class="vi-desc">I document architecture decisions, flag scope risks early, and keep product owners and teammates informed at every step — no surprises mid-sprint.</div></div></div>
+          <div class="vi"><div class="vi-icon">🎯</div><div><div class="vi-title">Requirements translated, not just built</div><div class="vi-desc">I ask the questions that surface the edge cases before they become problems. Requirements become data models. Data models become working, secure applications.</div></div></div>
         </div>
       </div>
     </div>
@@ -902,13 +892,14 @@ footer p{font-size:0.76rem;color:var(--muted2)}
 <section class="section" id="contact">
   <div class="contact-inner">
     <div class="eyebrow" style="justify-content:center;margin-bottom:1.1rem"><div class="ey-line"></div><span class="ey-text">Get In Touch</span><div class="ey-line"></div></div>
-    <h2 class="reveal">Open to restructuring inherited apps,<br>locking down privacy &amp; scaling revenue.</h2>
-    <p class="section-sub reveal">Open to discuss how I've restructured inherited apps to eliminate technical debt, lock down privacy rules, and integrate Stripe Connect for real revenue growth. Let's talk about what you're building.</p>
+    <!-- UPDATED: headline now covers both client and team-hire contexts -->
+    <h2 class="reveal">Open to team roles, client projects,<br>&amp; production-grade builds.</h2>
+    <p class="section-sub reveal">Whether you're a company hiring a senior Bubble developer or a founder building something complex — I'm happy to talk. Specialising in marketplaces, Stripe Connect, security audits, and AI-integrated Bubble applications.</p>
     <div class="contact-cards reveal">
-      <a href="/cdn-cgi/l/email-protection#6008010e130b0910120f10515520070d01090c4e030f0d" class="cc">
+      <a href="mailto:[email protected]" class="cc">
         <div class="cc-icon">✉️</div>
         <div class="cc-label">Email</div>
-        <div class="cc-val"><span class="__cf_email__" data-cfemail="1a727b746971736a68756a2b2f5a7d777b737634797577">[email&#160;protected]</span></div>
+        <div class="cc-val">[email protected]</div>
       </a>
       <a href="https://wa.me/254798280543" target="_blank" class="cc">
         <div class="cc-icon">💬</div>
@@ -918,22 +909,21 @@ footer p{font-size:0.76rem;color:var(--muted2)}
       <a href="https://www.linkedin.com/in/hanskipropyego" target="_blank" class="cc">
         <div class="cc-icon">🔗</div>
         <div class="cc-label">LinkedIn</div>
-        <div class="cc-val">Hans Kipropyego</div>
+        <div class="cc-val">Hans Kiproyego</div>
       </a>
     </div>
     <a href="https://wa.me/254798280543" target="_blank" class="cta-final reveal">
-      Start a Project <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      Start a Conversation <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
   </div>
 </section>
 
 <footer>
   <a href="#" class="fl">Hans<span>.</span></a>
-  <p>© 2025 Hans Kipropyego · No-Code · AI · Automation · Nairobi, Kenya</p>
+  <p>© 2025 Hans Kiproyego · Senior Bubble Developer · Nairobi, Kenya</p>
 </footer>
 
 <script>
-// Custom cursor
 const cursor=document.getElementById('cursor'),ring=document.getElementById('cursorRing');
 let mx=0,my=0,rx=0,ry=0;
 document.addEventListener('mousemove',e=>{
@@ -949,8 +939,6 @@ document.querySelectorAll('a,button').forEach(el=>{
   el.addEventListener('mouseenter',()=>{cursor.style.transform+=' scale(2)';ring.style.width='52px';ring.style.height='52px'});
   el.addEventListener('mouseleave',()=>{ring.style.width='36px';ring.style.height='36px'});
 });
-
-// Scroll reveal
 const obs=new IntersectionObserver(entries=>{
   entries.forEach((e,i)=>{
     if(e.isIntersecting){setTimeout(()=>e.target.classList.add('on'),i*90);obs.unobserve(e.target)}
